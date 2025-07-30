@@ -28,12 +28,12 @@ async function main() {
       posts: {
         create: [
           {
-            title: 'Second blog post',
+            title: 'First blog post',
             content: 'This is my first blog post.',
             topImage: dummyImages[0],
             published: true
           }, {
-            title: 'First blog post',
+            title: 'Second blog post',
             content: 'This is my second blog post.',
             topImage: dummyImages[1],
             published: true

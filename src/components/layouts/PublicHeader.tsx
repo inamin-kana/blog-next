@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import SearchBox from "@/components/post/SearchBox"
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -25,10 +25,7 @@ export default function PublicHeader() {
             </NavigationMenuList>
           </NavigationMenu>
           <div className="flex items-center gap-4">
-            <Input
-              placeholder="Search article..."
-              className="w-[200px] lg:w-[300px] bg-white"
-            />
+            <SearchBox />
             <Button variant="outline" asChild>
               <Link href="/login">
                 Login
