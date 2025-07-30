@@ -16,7 +16,7 @@ async function main() {
   // Dummy img
   const dummyImages = [
     'https://picsum.photos/seed/post1/600/400',
-    'https://picsum.photos/seed/post1/600/400',
+    'https://picsum.photos/seed/post2/600/400',
   ]
 
   // Make user
